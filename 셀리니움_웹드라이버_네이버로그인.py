@@ -1,6 +1,4 @@
 # 셀리니움_웹드라이버_네이버로그인.py
-# pip install clipboard 
-
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.common.keys import Keys
@@ -8,7 +6,8 @@ from selenium.webdriver.common.by import By
 import clipboard
 import time
 
-driver = webdriver.Chrome(ChromeDriverManager().install())
+#원격 웹브라우져 핸들링 
+driver = webdriver.Chrome()
 driver.get('https://nid.naver.com/nidlogin.login')
 
 # 네이버 메인화면에서 로그인 버튼 클릭

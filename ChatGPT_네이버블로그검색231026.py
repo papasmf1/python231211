@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+#엑셀 쓰기 
 from openpyxl import Workbook
 
 search_keyword='맥북에어'
