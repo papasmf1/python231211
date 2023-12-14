@@ -4,6 +4,8 @@ import requests
 #크롤링
 from bs4 import BeautifulSoup
 
+
+
 url = "https://www.daangn.com/fleamarket/"
 response = requests.get(url)
 
